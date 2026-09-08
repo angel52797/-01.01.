@@ -1,5 +1,3 @@
-<img width="522" height="589" alt="2 2" src="https://github.com/user-attachments/assets/797caa05-b031-4abc-9ea4-772a3d78a86d" />
-<img width="522" height="589" alt="2 2" src="https://github.com/user-attachments/assets/bad2abd1-7609-4d3e-9b33-8a871152dcad" />
 # Введение в С++
 # Язык программирование С++
 Язык программирование С++ представляет высокоуровневый компилированный язык программирование общего назначения со статической типизацией
@@ -33,3 +31,4 @@
 
 
 # ОПИШИТЕ СТРУКТУРУ ПРОЕКТА с++ В VISUAL STUDIO ОБЬЯСНИТЕ КАЖДЫЙ ФАЙЛ
+<img width="522" height="589" alt="2 2" src="https://github.com/user-attachments/assets/797caa05-b031-4abc-9ea4-772a3d78a86d" />
