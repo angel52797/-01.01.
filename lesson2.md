@@ -32,3 +32,4 @@
 
 # ОПИШИТЕ СТРУКТУРУ ПРОЕКТА с++ В VISUAL STUDIO ОБЬЯСНИТЕ КАЖДЫЙ ФАЙЛ
 <img width="522" height="589" alt="2 2" src="https://github.com/user-attachments/assets/797caa05-b031-4abc-9ea4-772a3d78a86d" />
+https://avatars.mds.yandex.net/i?id=2eda43236dff59cea58b93ea6e522d78_l-5132586-images-thumbs&n=13
