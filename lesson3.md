@@ -10,7 +10,6 @@
 
 #include <iostream>  
 #include <vector>  
-
 int main() {  
     std::vector<int> data = {1, 2, 3, 4, 5};  
     for (int elem : data) {  
@@ -24,7 +23,6 @@ int main() {
 
  #include <string>  
 #include <vector>  
-
 int main() {  
     std::vector<std::string> v1;  // пустой вектор строк  
     std::vector<std::string> v2(5);  // вектор из пяти пустых строк  
@@ -66,15 +64,12 @@ for (size_t i = 0; i != data.size(); ++i) {
 
 #include <iostream>  
 #include <vector>  
-
-
 int main() {  
     int x;  
     std::vector<int> data;  
     while (std::cin >> x) {  // читаем числа, пока не закончится ввод  
         data.push_back(x);  // добавляем очередное число в вектор  
     }  
-    
 
     while (!data.empty() && data.back() == 0) {  
         // Пока вектор не пуст и последний элемент равен нулю  
@@ -107,20 +102,12 @@ int main() {
 #include <iostream>  
 #include <string>  
 #include <vector>  
-
-
 int main() {  
     std::vector<std::string> words;  
-    
-
     size_t words_count;  
     std::cin >> words_count;  
-    
-
     // Размер вектора остаётся нулевым, меняется только резерв:  
     words.reserve(words_count);  
-    
-
     for (size_t i = 0; i != words_count; ++i) {  
         std::string word;  
         std::cin >> word;  
@@ -136,17 +123,11 @@ int main() {
 
 #include <iostream>  
 #include <vector>  
-
-
 int main() {  
     size_t m, n;  
     std::cin >> m >> n;  // число строк и столбцов  
-    
-
     // создаём матрицу matrix из m строк, каждая из которых — вектор из n нулей  
     std::vector<std::vector<int>> matrix(m, std::vector<int>(n));  
-    
-
     for (size_t i = 0; i != m; ++i) {  
         for (size_t j = 0; j != n; ++j) {  
             std::cin >> matrix[i][j];  
@@ -180,16 +161,10 @@ n — число элементов в векторе. Типичные реал
 
 #include <algorithm>  
 #include <vector>  
-
-
 int main() {  
     std::vector<int> data = {3, 1, 4, 1, 5, 9, 2, 6};  
-    
-
     // Сортировка диапазона вектора от начала до конца  
     std::sort(data.begin(), data.end());  
-    
-
     // получим вектор 1, 1, 2, 3, 4, 5, 6, 9  
 }  
 
@@ -202,21 +177,17 @@ int main() {
 
 #include <iostream>  
 #include <string>  
-
 int main() {  
     std::string s = "Some string";  
-
     // приписывание символов и строк  
     s += ' ';  // добавляем отдельный символ в конец, это аналог push_back  
     s += "functions";  // добавляем строку в конец  
     std::cout << s << "\n";  // Some string functions  
-
     // выделение подстроки  
     // подстрока "string" из 6 символов начиная с 5-й позиции  
     std::string sub1 = s.substr(5, 6);  
     // подстрока "functions" с 12-й позиции и до конца  
     std::string sub2 = s.substr(12);  
-
     // поиск символа или подстроки  
     size_t pos1 = s.find(' ');  // позиция первого пробела, в данном случае 4  
     size_t pos2 = s.find(' ', pos1 + 1);  // позиция следующего пробела (11)  
